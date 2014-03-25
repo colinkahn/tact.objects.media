@@ -6,7 +6,7 @@ Based off of [this pen](http://codepen.io/jmy1138/pen/rvxhq).
 
 Add the following to your bower.json dependencies:
 
-"tact.objects.media": "git@github.com:colinkahn/tact.objects.media.git#0.1.0"
+`"tact.objects.media": "git@github.com:colinkahn/tact.objects.media.git#0.1.0"`
 
 ## Example
 
