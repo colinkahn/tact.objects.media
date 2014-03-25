@@ -1,0 +1,78 @@
+/*------------------------------------*\
+  #MEDIA
+\*------------------------------------*/
+
+.media {  
+  display: flex;
+  align-items: center;
+  margin: 0 0 1em;
+  padding: 0 0 1em;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+
+
+.media--top {
+  align-items: flex-start;
+}
+
+
+
+
+
+.media--bottom {
+  align-items: flex-end;
+}
+
+
+
+
+
+  .media__img {
+    padding: 0 1em 0 0;
+
+    .media--rev & {
+      padding: 0 0 0 1em;
+    }
+  }
+
+
+
+
+
+  .media__body {
+      flex: 1;
+  }
+
+
+
+
+/*
+ * Fallbacks
+ */
+.no-flexbox .media {
+   display: table;
+   width: 100%;
+}
+
+
+
+
+
+  .no-flexbox .media__img,
+  .no-flexbox .media__body {
+    display: table-cell;
+    vertical-align: middle;
+    
+    .media--top & {
+        vertical-align: top;
+    }
+
+    .media--bottom & {
+        vertical-align: bottom;
+    }
+    
+  }
+

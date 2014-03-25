@@ -1,0 +1,6 @@
+{
+  "name": "tact-media",
+  "version": "0.1.0",
+  "homepage": "https://github.com/colinkahn/tact.objects.media",
+  "main": "_objects.media.scss"
+}
